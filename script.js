@@ -24,5 +24,4 @@ mybar.addEventListener('timeupdate', () => {
     console.log('timeupdate');
 });
 
-// Ensure the audio element uses the correct file path from the songs array
 audioElement.src = songs[0].filePath;

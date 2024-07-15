@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    color: #143F6B;
+}
+ ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "MuseoModerno", sans-serif;
+}
+ul.head {
+    display: flex;
+    align-items:center
+}
+ul.head li{
+    padding: 0px 20px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 32px;
+    color: #143F6B;
+    margin: 4
+}
+.brand img {
+    margin: 12px;
+}
+.search {
+    background-color: #5179A3;
+    border-radius: 12px;
+    width: 450px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    opacity: 60%;
+    font-size: 12px;
+    position: relative;
+    left: 115px;
+}
+.search img {padding: 10px;}
+.filter {
+    background-color: #143F6B;
+    color: #FFFFFF;
+    border-radius: 12px;
+    width: 88px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    left: 170px;
+}
+.filter img{
+    padding: 5px;
+}
+.filter:hover{background-color: #F55353;}
+.notification {
+    position: absolute;
+    right: 300px;
+}
+#arrow{
+    position: absolute;
+    right: 225px;
+}
+.profile{
+    position: absolute;
+    right: 150px;
+}
+.DP {
+    position: absolute;
+    right: 15px;
+}
+div.dropdown {
+    background-color: #143F6B;
+    margin: 42px 68px 0px 0px;
+    width: 300px;
+    height: 881px;
+    border-radius: 0px 25px 0px 0px;
+}
+.dropdown span{
+    color: #FFFFFF;
+}
+#home {
+    opacity: 100%;
+}
+.menu li {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    opacity: 50%;
+}
+.menu li img {
+    margin: 15px 25px;
+}
+.menu li:hover{
+    opacity: 100%;
+}
+#menu {
+    font-size: 12px;
+    padding: 15px 0px;
+    margin: 0px 0px 0px 40px;
+    opacity: 50%;
+}
+.playlist li{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    opacity: 50%;
+}
+.playlist li img{
+    margin: 15px 25px;
+}
+.playlist li:hover{
+    opacity: 100%;
+}
+#playlist {
+    font-size: 12px;
+    padding: 15px 0px;
+    margin: 0px 0px 0px 40px;
+    opacity: 50%;
+}
+.extra li{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    opacity: 50%;
+}
+.extra li img{
+    margin:15px 25px ;
+}
+.extra li:hover{
+opacity: 100%;
+}
+div.extra {
+    padding: 50px 0px;
+}
+.Center {
+    width: 680px;
+    height: 240px;
+    position: absolute;
+    bottom: 407px;
+    left: 368px
+}
+.fav {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    bottom: 420px;
+    left: 1080px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #5179A3;
+    font-family: "MuseoModerno", sans-serif;;
+}
+.art{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.artist{
+    display: flex;
+    align-items: center;
+    padding:8px 0px;
+}
+.button{
+    width: 116px;
+    height: 38px;
+    background-color:#143F6B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 0 0 0;
+    border-radius: 12px;
+    position:absolute;
+    right: 10px;
+}
+.button:hover{
+    background-color: #F55353;
+    ;
+}
+.artist img { padding:0px 10px 0 0;}
+.discover h2{
+    position: absolute;
+    top: 400px;
+    left: 368px;
+    font-size:32px;
+    padding: 15px;
+    font-family: "MuseoModerno", sans-serif;;
+}
+.discover ul{
+    position: absolute;
+    top: 500px;
+    left: 368px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    transition: transform .2s;
+}
+.discover ul li:hover{
+    transform: scale(1.1);
+    
+}
+.middle{
+    margin: 0px 20px;
+}
+.recent{
+    
+    position: absolute;
+    top: 500px;
+    left: 1080px;
+    
+}
+.song{
+    display: flex;
+    align-items: center;
+}
+.song img{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.un{
+    font-size: 11px;
+    position: relative;
+    bottom: 20px;
+    left: 85px;
+}
+.like{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 300px;
+    bottom: 60px;
+    padding: 0;
+}
+.bottom{
+    background-color: #143F6B2F;
+    width: 1050px;
+    height: 132px;
+    position: absolute;
+    top: 875px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+#mybar{
+    width: 30vw;
+    height: 2px;
+    text-align: center;
+    position: relative;
+    left: 260px;
+    cursor: pointer;
+}
+.playimg{
+    position: relative;
+    right: 435px;
+    width: 110px;
+    height: 110px;
+}
+.playsong ul{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    right: 225px;
+}
+.playsong ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.control ul{
+    display: flex;;
+    position: relative;
+
+}
+.control ul li{
+    padding: 10px;
+}

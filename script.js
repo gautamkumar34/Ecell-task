@@ -4,7 +4,7 @@ let audioElement = new Audio('song 1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let mybar = document.getElementById('mybar');
 let songs = [
-    {songName: "song 1", filePath: "Melody images/song 1.mp3"}
+    {songName: "song 1", filePath: "song 1.mp3"}
 ];
 
 masterPlay.addEventListener('click', () => {
